@@ -30,3 +30,14 @@ food.color("white")
 food.penup()
 food.goto(0, 100)
 
+segments = []
+
+# Pen
+pen = turtle.Turtle()
+pen.speed(0)
+pen.shape("square")
+pen.color("White")
+pen.penup()
+pen.hideturtle()
+pen.goto(0, 260)
+pen.write("Score: 0 High score: 0", align="center", font=("Courier", 24, "normal"))
