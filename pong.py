@@ -1,5 +1,5 @@
 import turtle
-import  winsound
+import winsound
 
 window = turtle.Screen()
 window.title("Pong by @Ivelina")
